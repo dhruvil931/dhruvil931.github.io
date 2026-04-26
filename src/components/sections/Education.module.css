@@ -1,0 +1,83 @@
+.eduSection {
+  background-color: var(--bg-color);
+}
+
+.sectionBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px var(--shadow-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background-color: var(--accent-color);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px var(--shadow-color);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.degree {
+  font-size: 1.5rem;
+  color: var(--fg-color);
+  font-weight: 700;
+}
+
+.duration {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  background: rgba(59, 130, 246, 0.1);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+}
+
+.institution {
+  font-size: 1.125rem;
+  color: var(--fg-secondary);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.coursework {
+  color: var(--fg-secondary);
+  line-height: 1.6;
+}
+
+.coursework strong {
+  color: var(--fg-color);
+}

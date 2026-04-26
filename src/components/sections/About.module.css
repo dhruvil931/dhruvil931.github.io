@@ -1,0 +1,162 @@
+.aboutSection {
+  background-color: var(--bg-secondary);
+  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.preTitle {
+  display: block;
+  font-size: 0.85rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+}
+
+.mainTitle {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--fg-color);
+  letter-spacing: -0.5px;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.glassCard {
+  background: var(--card-bg);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  position: relative;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.glassCard:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+[data-theme='light'] .glassCard {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+}
+
+[data-theme='light'] .glassCard:hover {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.bioCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3.5rem;
+}
+
+.quoteIcon {
+  font-family: serif;
+  font-size: 5rem;
+  color: var(--accent-color);
+  opacity: 0.2;
+  line-height: 0;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: var(--fg-secondary);
+  line-height: 1.9;
+}
+
+.description strong {
+  color: var(--fg-color);
+  font-weight: 600;
+}
+
+.highlight {
+  background: linear-gradient(120deg, var(--accent-color), #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.bentoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1.5rem;
+}
+
+.bentoItem {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bentoWide {
+  grid-column: 1 / -1;
+}
+
+.bentoIcon {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+}
+
+[data-theme='light'] .bentoIcon {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.bentoItem h4 {
+  font-size: 1.2rem;
+  color: var(--fg-color);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.bentoItem p {
+  font-size: 0.9rem;
+  color: var(--fg-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 992px) {
+  .aboutGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .bentoGrid {
+    grid-template-columns: 1fr;
+  }
+  .bioCard {
+    padding: 2rem;
+  }
+}
