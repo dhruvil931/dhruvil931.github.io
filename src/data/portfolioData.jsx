@@ -35,7 +35,7 @@ export const portfolioData = {
         "Input validation for N, P, K, temperature, humidity, pH, and rainfall parameters",
         "Modular architecture separating frontend, backend, and ML services"
       ],
-      link: "#",
+      link: "https://agrosmart-iota.vercel.app/",
       github: "https://github.com/dhruvil931/Crop_recommendation_system"
     }
   ],
@@ -80,17 +80,19 @@ export const portfolioData = {
     }
   ],
   activities: [
-    {
-      title: "HackOut 2025 Participant",
-      organization: "DA-IICT",
-      description: "Built a team-based solution under strict time constraints focusing on rapid prototyping and problem-solving."
-    },
-    {
-      title: "Python for Data Science",
-      organization: "NPTEL, IIT Madras",
-      description: "Certification"
-    }
-  ],
+  {
+    title: "HackOut 2025 Participant",
+    organization: "DA-IICT",
+    description: "Built a team-based solution under strict time constraints focusing on rapid prototyping and problem-solving.",
+    link: "https://drive.google.com/file/d/1-KJuH-qOfDaU99FFiTGWxFCie33jFDrY/view?usp=sharing"
+  },
+  {
+    title: "Python for Data Science",
+    organization: "NPTEL, IIT Madras",
+    description: "Certification",
+    link: "https://drive.google.com/file/d/1vkdXJxwPH-9On0m2ikp6_EyGFFZEY-Em/view?usp=sharing"
+  }
+],
   contact: {
     email: "dhruvil.k1087@gmail.com",
     phone: "+91 9909331408",
