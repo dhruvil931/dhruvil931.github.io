@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👋 Dhruvil Kapadiya — Personal Portfolio
 
-## Getting Started
+[![Live Site](https://img.shields.io/badge/Live%20Site-dhruvilkapadiya.me-blue?style=for-the-badge&logo=google-chrome)](https://dhruvilkapadiya.me)
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-181717?style=for-the-badge&logo=github)](https://dhruvil931.github.io)
 
-First, run the development server:
+> Personal portfolio website of **Dhruvil Kapadiya** — Java Full Stack Developer based in Surat, Gujarat, India.
+
+---
+
+## 🌐 Live Preview
+
+🔗 **[dhruvilkapadiya.me](https://dhruvilkapadiya.me)**
+
+---
+
+## 📌 About
+
+This is the source code for my personal portfolio website, showcasing my skills, projects, and professional experience as a Java Full Stack Developer. The site is hosted on GitHub Pages with a custom domain.
+
+---
+
+## ✨ Features
+
+- 🧑‍💻 About Me section with professional background
+- 🛠️ Skills & Technologies showcase
+- 💼 Projects portfolio with live demos and source links
+- 📄 Resume / CV download
+- 📬 Contact section
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone the repository
+git clone https://github.com/dhruvil931/dhruvil931.github.io.git
+
+# Navigate into the project directory
+cd dhruvil931.github.io
+
+# Open index.html in your browser
+open index.html
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+No dependencies or build steps required — it's a static site.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+dhruvil931.github.io/
+├── index.html          # Main HTML file
+├── css/                # Stylesheets
+├── js/                 # JavaScript files
+├── assets/             # Images, icons, resume
+└── README.md           # You are here
+```
 
-To learn more about Next.js, take a look at the following resources:
+> _Note: Folder structure may vary slightly based on the actual project layout._
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📬 Contact
 
-## Deploy on Vercel
+- 🌐 Website: [dhruvilkapadiya.me](https://dhruvilkapadiya.me)
+- 💼 LinkedIn: [linkedin.com/in/dhruvil-kapadiya](https://www.linkedin.com/in/dhruvil-kapadiya)
+- 🐙 GitHub: [@dhruvil931](https://github.com/dhruvil931)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<p align="center">Made with ❤️ by <a href="https://dhruvilkapadiya.me">Dhruvil Kapadiya</a></p>
