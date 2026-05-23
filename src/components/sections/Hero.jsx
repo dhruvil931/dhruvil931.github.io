@@ -25,7 +25,7 @@ export default function Hero() {
           <p className={styles.valueStatement}>{hero.valueStatement}</p>
           <div className={styles.ctaGroup}>
             <a
-              href="https://drive.google.com/file/d/1l8SxfK8v5o3o1qSpxUkUtxSUtDybExVO/view?usp=sharing"
+              href="https://drive.google.com/file/d/15X9B1H9-2BuLM1Lzy8EfdOcvv8cKa3Ro/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.primaryBtn}
