@@ -15,7 +15,7 @@ export const portfolioData = {
   projects: [
     {
       id: "project-1",
-      title: "Nexavo - Real-Time Chat Application",
+      title: "Nexavo - Real Time Chat Application",
       description:
         "A full-stack chat platform supporting room-based real-time messaging with OAuth2 social login and secure JWT session management.",
       techStack: ["React", "Spring Boot", "MongoDB", "WebSocket", "JWT"],
