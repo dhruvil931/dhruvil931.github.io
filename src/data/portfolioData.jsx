@@ -15,6 +15,20 @@ export const portfolioData = {
   projects: [
     {
       id: "project-1",
+      title: "Nexavo - Real-Time Chat Application",
+      description:
+        "A full-stack chat platform supporting room-based real-time messaging with OAuth2 social login and secure JWT session management.",
+      techStack: ["React", "Spring Boot", "MongoDB", "WebSocket", "JWT"],
+      features: [
+        "Real-time messaging using Spring WebSocket (STOMP/SockJS) with persistent message storage",
+        "OAuth2 authentication via Google and Facebook with JWT-based Spring Security",
+        "Modular React frontend with routing, context state management, and Tailwind CSS",
+      ],
+      link: "https://nexavo-chat.vercel.app/",
+      github: "https://github.com/dhruvil931/Chat-Application",
+    },
+    {
+      id: "project-2",
       title: "Freightelligent - Freight Logistics Platform",
       description:
         "A multi-role logistics platform supporting Shipper, Carrier, and Customer workflows.",
@@ -29,7 +43,7 @@ export const portfolioData = {
       github: "https://github.com/dhruvil931/Shipment-Tracking-Portal",
     },
     {
-      id: "project-2",
+      id: "project-3",
       title: "Crop Recommendation DSS",
       description:
         "A Decision Support System providing real-time crop recommendations based on environmental and soil parameters.",
