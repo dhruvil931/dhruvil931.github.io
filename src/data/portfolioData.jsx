@@ -15,6 +15,20 @@ export const portfolioData = {
   projects: [
     {
       id: "project-1",
+      title: "ResumeIQ - ATS Resume Analyzer",
+      description:
+        "An AI-powered ATS platform optimizing resumes via automated parsing, 5-dimension scoring, and Gemini AI suggestions.",
+      techStack: ["React", "Spring Boot", "MySQL", "Gemini AI", "Tailwind CSS"],
+      features: [
+        "Automated PDF & DOCX parsing via Apache PDFBox & POI with regex sanitization",
+        "Rule-based 100-point ATS scoring across 5 dimensions with keyword gap analysis",
+        "Google Gemini 1.5 AI rewrites and recommendations with jsPDF report export",
+      ],
+      link: "https://resumeiq-six-zeta.vercel.app/",
+      github: "https://github.com/dhruvil931/ATS-Resume-Analyzer",
+    },
+    {
+      id: "project-2",
       title: "Nexavo - Real Time Chat Application",
       description:
         "A full-stack chat platform supporting room-based real-time messaging with OAuth2 social login and secure JWT session management.",
@@ -28,7 +42,7 @@ export const portfolioData = {
       github: "https://github.com/dhruvil931/Chat-Application",
     },
     {
-      id: "project-2",
+      id: "project-3",
       title: "Freightelligent - Freight Logistics Platform",
       description:
         "A multi-role logistics platform supporting Shipper, Carrier, and Customer workflows.",
@@ -43,7 +57,7 @@ export const portfolioData = {
       github: "https://github.com/dhruvil931/Shipment-Tracking-Portal",
     },
     {
-      id: "project-3",
+      id: "project-4",
       title: "Crop Recommendation DSS",
       description:
         "A Decision Support System providing real-time crop recommendations based on environmental and soil parameters.",
